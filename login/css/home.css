@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+  /* overflow: scroll; */
+}
+
+.movie {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  text-align: center;
+  overflow: auto;
+scroll-margin-bottom: 10px;
+}
+.movie2 {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  text-align: center;
+  overflow: auto;
+}
+
+.movie2 img {
+  width: 100px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+table1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #333;
+}

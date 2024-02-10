@@ -1,0 +1,148 @@
+video {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border: gray 1px solid;
+  background: #2bc0ff;
+  color: #ffffea;
+  border-radius: 10px;
+  transition: transform 1s;
+  margin-left: 20px;
+}
+.btn:hover {
+  color: #2bc0ff;
+  background: #333;
+  border: none;
+}
+h1 {
+  color: #2bc0ff;
+  padding: 0 20px;
+}
+.dt {
+  font-weight: bold;
+  color: #fafafa;
+}
+dd {
+  color: #808080;
+  font-size: 14px;
+}
+dl p {
+  color: #fafafa;
+}
+dl dl {
+  color: #fafafa;
+}
+.div1 {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #333;
+}
+.po {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
+  color: #2bc0ff;
+}
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul .li {
+  color: #808080;
+  font-size: 16px;
+  font-weight: bold;
+}
+ul li {
+  font-size: 18px;
+  color: #fafafa;
+}
+main1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+}
+
+.movie {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  width: 220px;
+  text-align: center;
+}
+
+.movie img {
+  width: 200px;
+  height: 350px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.video {
+  border: none;
+}
+@media (min-width: 412px) {
+  iframe {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 767px) {
+  iframe {
+    width: 430px;
+    height: 240px;
+  }
+}
+iframe {
+  width: 330px;
+  height: 200px;
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 430px;
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  iframe {
+    width: 500px;
+    height: 270px;
+  }
+}
+@media (min-width: 1200px) {
+  iframe {
+    width: 560px;
+    height: 313px;
+  }
+}
+
+.c-fa {
+  color: #fafafa;
+}
